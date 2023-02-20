@@ -19,7 +19,7 @@ def cars1():
         game.game_over()
     car1.move(1)
     car1.if_on_edge_bounce()
-basic.forever1(cars1)
+basic.forever(cars1)
 
 def cars2():
     global car2, player
@@ -28,7 +28,7 @@ def cars2():
         game.game_over()
     car2.move(1)
     car2.if_on_edge_bounce()
-basic.forever2(cars2)
+basic.forever(cars2)
 
 def cars3():
     global car3, player
@@ -37,7 +37,7 @@ def cars3():
         game.game_over()
     car3.move(1)
     car3.if_on_edge_bounce()
-basic.forever3(cars1)
+basic.forever(cars1)
 
 player = game.create_sprite(2, 4)
 car1 = game.create_sprite(2, 1)
